@@ -1,0 +1,37 @@
+{
+	"userinfo": [
+		{
+			"user": "xiaoming",
+			"pass": "12345678",
+			"email": "123@qq.com",
+			"mphone": "13712345678"
+		}, {
+			"user": "xiaohong",
+			"pass": "123456",
+			"email": "55555@qq.com",
+			"mphone": "137555555555"
+		}, {
+			"user": "xiaoxian",
+			"pass": "abcdefg123",
+			"email": "511115555@qq.com",
+			"mphone": "13755555555"
+		}, {
+			"user": "qweqweqwe",
+			"pass": "12345678",
+			"email": "369@qq.com",
+			"mphone": "18813425256"
+		}, {
+			"user": "qweqwe1",
+			"pass": "q111111e",
+			"email": "696@qq.com"
+		}, {
+			"user": "xiaomingd",
+			"pass": "12345678",
+			"email": "3d69@qq.com"
+		}, {
+			"user": "jiange",
+			"pass": "123456789",
+			"email": "123@qq.net"
+		}
+	]
+}

@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+#container{
+    .address{
+       h3{
+           padding: 0 0.4rem;
+           font-size: 0.24rem;
+           background-color: #7b9293;
+           color: #2a2a2a;
+           img{
+               width: 0.26rem;
+               margin-right: 0.15rem;
+           }
+           a{
+               float: right;
+           }
+       } 
+       .add_info{
+            width: 7.08rem;
+            height: 1.48rem;
+            font-size: 0.2rem;
+            border: 1px solid #9a9a9a;
+            margin: 0.15rem auto;
+            padding: 0.16rem 0 0.16rem 0.3rem ;
+            box-sizing: border-box;
+            ul{
+                float: left;
+                }
+            .add_ope{
+                float: right;
+                height: 0.85rem;
+                border-left: 1px solid #a0a0a0;
+                padding: 0.15rem 0.3rem 0.15rem 0.35rem;
+                text-align: center;
+                span{
+                    display: inline-block;
+                    width: 1.22rem;
+                    height: 0.36rem;
+                    color: #4b4a4b;
+                    line-height: 0.36rem;
+                    text-align: center;
+                    border: 1px solid #707070;
+                }
+                p{
+                    color: #e02b4d;
+                    margin-top: 0.15rem;
+                }
+            }
+        }
+    }
+    .order{
+        font-size: 0.24rem;
+        color: #2a2a2a;
+        h3{
+            padding: 0 0.4rem;
+            font-size: 0.24rem;
+            background-color: #7b9293;
+            color: #2a2a2a;
+        }
+        table{
+            display: block;
+            width: 7.08rem;
+            margin: 0 auto;
+            font-size: 0.2rem;
+            tr{
+                border: 1px solid #b4b4b4;
+                display: block;
+                margin: 0.18rem 0;
+                width: 100%;
+                overflow: hidden;
+                td:first-child{
+                    width: 2.8rem;
+                    text-align: center;
+                    img{
+                        padding: 0.12rem 0;
+                        width: 2.36rem;
+                    }
+                }
+                td:first-child+td{
+                    width: 1.6rem;
+                    color: #646262;
+                    line-height: 0.32rem;
+                }
+                td:first-child+td+td{
+                    padding-left: 0.7rem;
+                    width: 2.2rem;
+                }
+            }
+        }
+        h4{
+            margin: 0.3rem 0.1rem;
+            padding:0 0.15rem;
+            border-bottom: 1px solid #666666;
+            b{
+                float: right;
+                color: #646262;
+            }   
+        }
+        .invoice{
+            ul{display: none;}
+        }
+        .total{
+            ol{
+                float: right;
+                margin-right: 0.28rem;
+                li{
+                    padding: 0 0.2rem;
+                }
+                li:last-child{
+                    border-top: 1px solid #666666;
+                    position:relative;
+                    small{
+                        border-bottom: 0.12rem solid #666666;
+                        border-right: 0.04rem solid rgba(255,255,255,0);
+                        border-left: 0.04rem solid rgba(255,255,255,0);
+                        transform: rotate(90deg);
+                        position: absolute;
+                        top: -0.065rem;
+                        right: 0;
+                    }
+                }
+                font{
+                    display: inline-block;
+                    width: 1rem;
+                    margin-right: 0.15rem;
+                    text-align: right;
+                    span{
+                        float: left;
+                    }
+                }
+                i{
+                    color: #f70e0e;
+                }
+            }
+        }
+    }
+}
+#footer{
+    background-color:#eae7e7;
+    height: 0.65rem;
+    line-height: 0.65rem;
+    h2{
+        text-align: center;
+        font-size: 0.24rem;
+        font{
+            float: left;
+            width: 60%;
+            padding-left: 0.5rem;
+            box-sizing: border-box;
+            border-top:1px solid #818181 ;
+            border-bottom:1px solid #818181 ;
+            b{
+                font-size: 0.3rem;
+                color: #f70e0e;
+            } 
+        }
+        a{
+            float: right;
+            width: 40%;
+            height: inherit;
+            background-color: #e51e1e;
+            font-size: 0.36rem;
+            color: #2a2a2a;
+        }
+    }
+} 

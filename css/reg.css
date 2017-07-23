@@ -1,0 +1,108 @@
+#container {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #4c4c4c;
+}
+
+#container .bg_box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #dfa11d;
+  min-height: 12rem;
+}
+
+#container .box {
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 15%;
+  width: 6rem;
+  margin-left: -3.2rem;
+  left: 3.74rem;
+  padding: 0.2rem 0.2rem 0.4rem;
+  font-size: 0.2rem;
+}
+
+#container .box .top {
+  border-bottom: #c9c9c9 solid 1px;
+  font-size: 0.32rem;
+}
+
+#container .box .top a {
+  display: inline-block;
+  text-align: center;
+  width: 48.8%;
+}
+
+#container .box .top a:first-child {
+  color: #f30b37;
+}
+
+#container .box from > input {
+  border: #707070 solid 1px;
+  display: block;
+  width: 4.6rem;
+  height: 0.46rem;
+  margin: 0.05rem auto;
+}
+
+#container .box from > input:first-child {
+  margin-top: 0.3rem;
+}
+
+#container .box from p {
+  text-align: center;
+  color: red;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+
+#container .box from h3 {
+  line-height: 0.3rem;
+  text-align: right;
+  color: #0f89ac;
+  font-size: 0.2rem;
+  margin-right: 0.68rem;
+}
+
+#container .box from label {
+  display: block;
+  padding-left: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+#container .box from label input {
+  height: 0.16rem;
+  width: 0.16rem;
+  margin-right: 0.08rem;
+}
+
+#container .box from button {
+  display: block;
+  width: 2.62rem;
+  height: 0.54rem;
+  margin: 0.36rem  auto;
+  background-color: #f30b37;
+  border: none;
+  font-size: 0.32rem;
+  line-height: 0.30rem;
+}
+
+#container .box .bottom h3 {
+  color: #414243;
+  width: 2.85rem;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid #707070;
+}
+
+#container .box .bottom ul {
+  width: 2rem;
+  margin: 0.1rem auto;
+}
+
+#container .box .bottom ul li {
+  float: left;
+  width: 0.65rem;
+  text-align: center;
+}

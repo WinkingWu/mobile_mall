@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{margin:0;padding:0;letter-spacing: 1px;}
+body,button,input,select,textarea{font:12px/2 Verdana, Regular, Helvetica, sans-serif;}/*雅黑：\5FAE\8F6F\96C5\9ED1  Verdana, Helvetica, sans-serif*/
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight: normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;word-wrap: break-word; white-space: normal;}
+small{font-size:12px;}
+li{list-style:none;}
+a:link,a:visited{color:inherit;text-decoration:none;}
+a:hover{color: inherit;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:inherit;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:inherit;outline: none;resize: none;overflow: hidden;padding: 0.04rem;box-sizing: border-box;}
+table{border-collapse:collapse;border-spacing:0;}
+b{font-weight: normal;}
+i{font-style: normal;}
+img{vertical-align: middle;}
+
+.clear{clear: both;}
+#footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 1rem;
+    background-color: #13b5b1;
+    font-size: 0.2rem;
+    ul{
+        li{
+            float: left;
+            width: 25%;
+            text-align: center;
+            &.on{
+                background-color: #eb6877;
+                a{
+                    color: #ffffff;
+                }
+            }
+            a{
+                color: #333333;
+                figure{
+                    img{
+                        width: 0.58rem;
+                        margin-top: 0.1rem;
+                    }
+                }
+            }
+        }
+    }
+}

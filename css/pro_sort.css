@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#container { margin-top: 0.86rem; margin-bottom: 1.2rem; }
+#container .category h1 { text-align: center; font-size: 0.32rem; line-height: 0.76rem; }
+#container .category ol { padding: 0 0.5rem; }
+#container .category ol li { background-color: #e6e6e6; margin-bottom: 0.15rem; }
+#container .category ol li h2 { font-size: 0.24rem; color: #3b3b3b; padding: 0 0.4rem; background-color: #c0d4d7; border: 3px solid #e4e1bb; }
+#container .category ol li h2 i { float: right; font-family: '黑体'; font-weight: bold; transform: rotate(0deg); }
+#container .category ol li table { border: none; border-bottom: 0.1rem solid #e6e6e6; font-size: 0.2rem; width: 5rem; margin: 0.1rem auto 0; display: none; }
+#container .category ol li table tr { border: none; }
+#container .category ol li table tr td { border: none; line-height: 0.54rem; }
+
+/*# sourceMappingURL=pro_sort.css.map */

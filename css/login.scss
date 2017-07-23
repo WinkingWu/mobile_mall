@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+#container{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #2a2a2a;
+    .bg_box{
+         position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #dfa11d;
+        min-height: 12rem;
+    }
+    .box{
+        position: absolute;
+        background-color: #FFFFFF;
+        top: 25%;
+        width: 6rem;
+        margin-left: -3.2rem;
+        left: 3.74rem;
+        padding:0.2rem 0.2rem 0.4rem;
+        font-size: 0.2rem;
+        .top{
+            border-bottom: #c9c9c9 solid 1px;
+            font-size:0.32rem ;
+            a{
+                display: inline-block;
+                text-align: center;
+                width: 48.8%;
+                &:first-child{
+                    color: #f30b37;
+                }
+            }
+        }
+        from{
+            >input{
+                border: #707070 solid 1px;
+                display: block;
+                width: 4.6rem;
+                height: 0.46rem;
+                margin: 0.05rem auto;
+                &:first-child{
+                    margin-top: 0.3rem;
+                }
+            }
+            p{
+                text-align: center;
+                height: 0.3rem;
+                line-height: 0.3rem;
+                color: red;
+            }
+            label{
+                display: block;
+                padding-left: 0.76rem;
+                margin-top: -0.1rem;
+                input{
+                    height: 0.16rem;
+                    width: 0.16rem;
+                    margin-right:0.08rem;
+                }
+                a{
+                    padding-left: 0.25rem;
+                    display: block;
+                    padding-top: 0.1rem;
+                    color: #1175c2;
+                }
+            }
+            button{
+                display: block;
+                width: 2.62rem;
+                height: 0.54rem;
+                margin:  0.36rem  auto;
+                background-color: #f30b37;
+                border: none;
+                font-size: 0.32rem;
+                line-height: 0.30rem;
+            }
+        }
+        .bottom{
+            h3{
+              color: #414243;
+              width: 2.85rem;
+              margin: 0 auto;
+              text-align: center;
+              border-bottom: 1px solid #707070;  
+            }
+            ul{
+                width: 2rem;
+                margin: 0.1rem auto;
+                li{
+                    float: left;
+                    width: 0.65rem;
+                    text-align: center;
+                    img{
+                        width: 0.36rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#container .user_bg img { height: 2rem; width: 100%; }
+#container .user_con { height: 1.1rem; color: #FFFFFF; font-size: 0.3rem; background-color: #c08107; padding: 0.1rem 0.3rem 0 0.7rem; }
+#container .user_con .user { display: inline-block; }
+#container .user_con .user img { border: #000000 solid 1px; border-radius: 50%; width: 0.95rem; height: 0.95rem; float: left; margin-right: 0.25rem; }
+#container .user_con .user font { line-height: 1.2rem; }
+#container .user_con .set { float: right; font-size: 0.24rem; margin-top: 0.4rem; }
+#container .user_con .set img { margin-right: -0.05rem; width: 0.34rem; }
+#container .function ol { padding: 0.7rem 0.2rem; }
+#container .function ol li { width: 100%; margin-bottom: 0.3rem; }
+#container .function ol li .title { height: 0.55rem; border-bottom: #f29c9f 0.02rem solid; background-color: #cdcdcd; color: #494848; font-size: 0.3rem; padding-left: 0.2rem; padding-right: 0.4rem; line-height: 0.55rem; cursor: pointer; }
+#container .function ol li .title img { width: 0.4rem; margin-right: 0.1rem; }
+#container .function ol li .title i { float: right; transform: rotate(0deg); }
+
+/*# sourceMappingURL=user.css.map */

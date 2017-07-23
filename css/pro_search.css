@@ -1,0 +1,10 @@
+#container { font-size: 0.24rem; padding: 0.5rem 0 0.5rem 0.5rem; }
+#container .hot_search dt { font-size: 0.32rem; float: left; width: 1.7rem; height: 1rem; line-height: 0.48rem; }
+#container .hot_search dd { float: left; color: #3B3B3B; margin-right: 0.4rem; }
+#container .history h2 { font-size: 0.32rem; float: left; width: 1.7rem; line-height: 0.6rem; }
+#container .history ul { float: left; width: 2.64rem; color: #3B3B3B; }
+#container .history ul li { border-bottom: 1px solid #898989; margin-top: 0.08rem; padding: 0 0.1rem; }
+#container .cr_history { margin-top: 0.6rem; text-align: center; }
+#container .cr_history button { width: 5.26rem; color: #f5eeee; padding: 0; height: 0.4rem; line-height: 0.4rem; border: none; background-color: #898989; }
+
+/*# sourceMappingURL=pro_search.css.map */

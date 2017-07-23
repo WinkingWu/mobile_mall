@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shop_cart.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/myJs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/goods.oop.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shop_cart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header id="header">
+			<div class="back">
+				<a href="javascript:history.back()"><i>&lt;</i>返回</a>
+			</div>
+			<h2>我的购物车</h2>
+		</header>
+		<article id="container">
+			<div class="cart_title">
+				<span>产品信息</span>
+				<font><i>数量</i><i>操作</i></font>
+			</div>
+			<div class="cart_list">
+				<table border="" cellspacing="" cellpadding="">
+				</table>
+				<div class="totality">
+					<label class="all_select">
+						<input type="checkbox" name="" id="" value="" />
+						全选
+					</label>
+					<span>总价：<b>￥<i class="sum">0.00</i></b></span>
+					<font>总计：&nbsp;<i class="count">0</i>&nbsp;件</font>
+				</div>
+				<div class="settlement">
+					<a id="buy" href="###">去结算</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</article>
+		<footer id="footer">
+			<ul>
+				<li>
+					<a href="homepage.html">
+						<figure>
+								<img src="img/home_icon.png" alt="" />
+								<figcaption>首页</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="order.html">
+						<figure>
+								<img src="img/order_icon.png" alt="" />
+								<figcaption>我的订单</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li class="on">
+					<a href="shop_cart.html">
+						<figure>
+								<img src="img/cat_icon_on.png" alt="" />
+								<figcaption>我的购物车</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="user.html">
+						<figure>
+								<img src="img/user_icon.png" alt="" />
+								<figcaption>个人中心</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

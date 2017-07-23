@@ -1,0 +1,77 @@
+@charset "UTF-8";
+#header {
+  height: 0.65rem;
+  width: 100%;
+  padding-top: 0.2rem;
+  background-color: #4b4b4b;
+  color: #ebe7e7;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  font-size: 0.24rem;
+}
+
+#header .back {
+  float: left;
+  margin: 0 0.5rem;
+}
+
+#header .back a {
+  color: #ebe7e7;
+}
+
+#header .back a i {
+  font-family: "黑体";
+  font-size: 0.3rem;
+  float: left;
+  margin-right: 0.1rem;
+  line-height: 0.5rem;
+}
+
+#header h2 {
+  color: #faf4f4;
+  font-size: 0.32rem;
+  line-height: 0.46rem;
+  text-align: center;
+  width: 2rem;
+  margin: 0 auto;
+}
+
+#header .search {
+  float: left;
+  height: 0.42rem;
+  width: 4.15rem;
+  border: solid #cdcdcd 2px;
+  border-radius: 0.08rem;
+  overflow: hidden;
+  background-color: #4b4b4b;
+}
+
+#header .search input {
+  float: left;
+  width: 3.4rem;
+  height: 0.42rem;
+  line-height: 0.42rem;
+  border: none;
+  background-color: #4b4b4b;
+  color: #EBE7E7;
+}
+
+#header .search button {
+  border: none;
+  background-color: #4B4B4B;
+  width: 0.74rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+#header .search button img {
+  width: 0.35rem;
+  margin-left: -0.1rem;
+  margin-top: -0.1rem;
+}
+
+#container {
+  margin-top: 0.85rem;
+  margin-bottom: 1rem;
+}
