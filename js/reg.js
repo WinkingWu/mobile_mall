@@ -93,7 +93,7 @@ $(function(){
 				}
 			},
 			error:function(){
-				alert("网络错误");
+				alert("服务器连接失败，请稍后再试！");
 				$("#btn_reg").val("注册").prop("disabled",false);
 			}
 		});
